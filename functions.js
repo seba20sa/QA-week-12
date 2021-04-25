@@ -2,10 +2,10 @@
 const texto = (texto) => {
     return texto
 }
-// //2
-// const suma = (sumandoA, sumandoB) => {
-// return sumandoA + sumandoB;
-// }
+//2
+const suma = (A, B) => {
+return A + B;
+}
 // //3
 // const resta = (minuendo, sustraendo) => {
 // return minuendo - sustraendo;
@@ -55,4 +55,5 @@ const texto = (texto) => {
 
 export {
     texto,
+    suma,
 }
