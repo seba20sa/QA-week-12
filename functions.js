@@ -15,12 +15,12 @@ const multiplicacion = (factorA, factorB) => {
 return factorA * factorB;
 }
 //5
-const division = (dividendo, divisor) => {
-if  ( divisor === 0)  {
-    return 'No se puede dividir por 0';
-} else  {
-    return dividendo / divisor;
-}
+const division = (D1, D2) => {
+    if  ( D2 === 0)  {
+        return 'you cannot divide by zero';
+    } else  {
+        return D1 / D2;
+    }
 }
 // //6
 // const tablaMultiplicar = (multiplicando, multiplicador) => {
@@ -58,4 +58,5 @@ export {
     suma,
     resta,
     multiplicacion,
+    division,
 }
