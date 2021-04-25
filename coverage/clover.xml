@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1619381586591" clover="3.2.0">
-  <project timestamp="1619381586591" name="All files">
-    <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="6" coveredelements="6" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
+<coverage generated="1619386477816" clover="3.2.0">
+  <project timestamp="1619386477816" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="12" coveredelements="12" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
     <file name="functions.js" path="C:\Users\seba\Desktop\QA\week-12\functions.js">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="2" count="2" type="stmt"/>
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <line num="2" count="4" type="stmt"/>
       <line num="3" count="2" type="stmt"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="7" count="3" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="10" count="4" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
     </file>
   </project>
 </coverage>

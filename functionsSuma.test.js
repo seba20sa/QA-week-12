@@ -8,13 +8,13 @@ test('The sum of 5 + 7 is equal to 12', () => {
     ).toBe(12);
 });
 /*negative*/
-test('The sum of 8 + 15 is equal to 20', () => {
+test('The sum of 8 + 15 should not be equal to 20', () => {
     expect(
         functions.suma(8, 15)
     ).not.toBe(20);
 });
-test('The sum of only one value isntead of two returns the following', () => {
-    expect(
-        functions.suma(1)
-    ).not.toBeDefined;
-});
+// test('The sum of only one value isntead of two should not return a result', () => {
+//     expect(
+//         functions.suma(1)
+//     ).not.toBeDefined();
+// });
