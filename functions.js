@@ -22,15 +22,15 @@ const division = (D1, D2) => {
         return D1 / D2;
     }
 }
-// //6
-// const tablaMultiplicar = (multiplicando, multiplicador) => {
-// if (multiplicador === undefined) multiplicador = 10;
-// let table = []
-// for (let i = 0; i <= multiplicador; i++){
-//     table.push(multiplicando * i)
-// }
-// return table
-// }
+//6
+const tablaMultiplicar = (mult, multiplicator) => {
+    if (multiplicator === undefined) multiplicator = 10;
+    let table = []
+    for (let i = 0; i <= multiplicator; i++){
+        table.push(mult * i)
+}
+return table
+}
 
 // //7
 // const potencia = (base, exponente) => {
@@ -59,4 +59,5 @@ export {
     resta,
     multiplicacion,
     division,
+    tablaMultiplicar,
 }
