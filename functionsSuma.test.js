@@ -17,8 +17,4 @@ test('The sum of 8 + 15 should not be equal to 20', () => {
         functions.suma(8, 15)
     ).not.toBe(20);
 });
-// test('The sum of only one value isntead of two should not return a result', () => {
-//     expect(
-//         functions.suma(1)
-//     ).not.toBeDefined();
-// });
+
