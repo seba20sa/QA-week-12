@@ -1,6 +1,9 @@
 import { expect, test } from "@jest/globals"
 import * as functions from "./functions"
-
+/*TABLA MULT exists*/
+test('this function exists', () => {
+    expect(functions.tablaMultiplicar).toBeDefined();
+});
 /*positive*/
 test('If we set up the multiplicator at -2 and the mult at 3 we should get the following array', () => {
     expect(

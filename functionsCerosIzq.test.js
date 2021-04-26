@@ -1,6 +1,9 @@
 import { expect, test } from "@jest/globals"
 import * as functions from "./functions"
-
+/*CEROS IZQ exists*/
+test('this function exists', () => {
+    expect(functions.cerosIzq).toBeDefined();
+});
 /*positive*/
 test('The result of applyin this function to 5 and 2 should return the string: 05', () => {
     expect(

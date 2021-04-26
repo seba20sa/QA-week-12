@@ -1,5 +1,9 @@
 import { expect, test } from "@jest/globals"
 import * as functions from "./functions"
+/*SUMA exists*/
+test('this function exists', () => {
+    expect(functions.suma).toBeDefined();
+});
 
 /*positive*/
 test('The sum of 5 + 7 is equal to 12', () => {

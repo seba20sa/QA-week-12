@@ -1,9 +1,10 @@
 import { expect, test } from "@jest/globals"
 import * as functions from "./functions"
 
-// test('this function exists', () => {
-//     expect(functions.texto.toBeDefined()).toBeTruthy();
-// });
+/*TEXTO exists*/
+test('this function exists', () => {
+    expect(functions.texto).toBeDefined();
+});
 
 
 /*positive*/

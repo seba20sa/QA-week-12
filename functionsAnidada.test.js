@@ -1,6 +1,9 @@
 import { expect, test } from "@jest/globals"
 import * as functions from "./functions"
-
+/*ANIDADA exists*/
+test('this function exists', () => {
+    expect(functions.anidada).toBeDefined();
+});
 /*positive*/
 test('The sum of the squares of -1 and 6 should be 37', () => {
     expect(

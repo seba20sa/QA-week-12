@@ -1,6 +1,9 @@
 import { expect, test } from "@jest/globals"
 import * as functions from "./functions"
-
+/*POTENCIA exists*/
+test('this function exists', () => {
+    expect(functions.potencia).toBeDefined();
+});
 /*positive*/
 test('-1 to the power of 5 should be -1', () => {
     expect(
