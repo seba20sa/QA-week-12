@@ -2,7 +2,9 @@ import { expect, test } from "@jest/globals"
 import * as functions from "./functions"
 /*DIVISION exists*/
 test('this function exists', () => {
-    expect(functions.division).toBeDefined();
+    expect(
+        functions.division
+    ).toBeDefined();
 });
 /*positive*/
 test('The division of 4 by 50 should be .08', () => {

@@ -2,7 +2,9 @@ import { expect, test } from "@jest/globals"
 import * as functions from "./functions"
 /*MULTIPLICACION exists*/
 test('this function exists', () => {
-    expect(functions.multiplicacion).toBeDefined();
+    expect(
+        functions.multiplicacion
+    ).toBeDefined();
 });
 /*positive*/
 test('The multiplication of 23 * 5 should be equal to 115', () => {

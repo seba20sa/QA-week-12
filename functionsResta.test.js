@@ -2,9 +2,16 @@ import { expect, test } from "@jest/globals"
 import * as functions from "./functions"
 /*RESTA exists*/
 test('this function exists', () => {
-    expect(functions.resta).toBeDefined();
+    expect(
+        functions.resta
+    ).toBeDefined();
 });
 /*positive*/
+test('The result of the substraction must be a number', () => {
+    expect(
+        functions.resta(4, 6)
+    ).not.toBeNaN();
+});
 test('The substraction of 19 - 40 is equal to -21', () => {
     expect(
         functions.resta(19, 40)

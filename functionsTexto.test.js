@@ -3,7 +3,9 @@ import * as functions from "./functions"
 
 /*TEXTO exists*/
 test('this function exists', () => {
-    expect(functions.texto).toBeDefined();
+    expect(
+        functions.texto
+    ).toBeDefined();
 });
 /*positive*/
 test('this function will return the exact text passed as the param', () => {
