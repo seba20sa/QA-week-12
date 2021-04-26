@@ -32,26 +32,26 @@ const tablaMultiplicar = (mult, multiplicator) => {
 return table
 }
 
-// //7
-// const potencia = (base, exponente) => {
-// return Math.pow(base, exponente)
-// }
-// //8
-// const anidada = (a,b) => {
-// function cuadrado(x) {
-//     return x * x;
-// }
-// return cuadrado(a) + cuadrado(b);
-// }
-// //9
-// const cerosIzq = (num, totalLength) => {
-// var numStr = num.toString();
-// var numCeros = totalLength - numStr.length;
-// for (var i = 1; i <= numCeros; i++) {
-//     numStr = "0" + numStr;
-// }
-// return numStr;
-// }
+//7
+const potencia = (base, exp) => {
+return Math.pow(base, exp)
+}
+//8
+const anidada = (a,b) => {
+    function square(x) {
+        return x * x;
+    }
+    return square(a) + square(b);
+}
+//9
+const cerosIzq = (num, totalLength) => {
+    var numStr = num.toString();
+    var numZeros = totalLength - numStr.length;
+    for (var i = 1; i <= numZeros; i++) {
+        numStr = "0" + numStr;
+    }
+    return numStr;
+}
 
 export {
     texto,
@@ -60,4 +60,7 @@ export {
     multiplicacion,
     division,
     tablaMultiplicar,
+    potencia,
+    anidada,
+    cerosIzq,
 }
